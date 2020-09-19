@@ -4,5 +4,32 @@
     ViewData["Title"] = "RegionList";
 }
 
-<h1>RegionList</h1>
+@section styles {
+    <link rel="Stylesheet" href="~/css/RegionList.css" />
+}
 
+<h1>Region List</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-page="/Regions/Kanto">
+            <div class="region-card grow">
+                Kanto
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a asp-page="/Regions/Kanto">
+            <div class="region-card grow">
+                Jhoto
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a asp-page="/Regions/Kanto">
+            <div class="region-card grow">
+                Sinnoh
+            </div>
+        </a>
+    </div>
+</div>
