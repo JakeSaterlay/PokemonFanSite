@@ -6,3 +6,8 @@
 .main-welcome {
     display: none;
 }
+
+.enter-button{
+    margin-top:10%;
+    display:none;
+}
