@@ -6,3 +6,15 @@
 
 <h1>Kanto</h1>
 
+<table class="table">
+    @foreach (var pokemon in Model.Pokemon)
+    {
+        <tr>
+            <td>@pokemon.Name</td>
+            <td>@pokemon.DexNumber</td>
+            <td>@pokemon.Type</td>
+        </tr>
+    }
+</table>
+
+
