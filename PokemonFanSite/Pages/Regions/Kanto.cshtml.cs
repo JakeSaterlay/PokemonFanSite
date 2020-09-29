@@ -15,6 +15,9 @@ namespace PokemonFanSite.Pages.Regions
         private readonly IPokemonData kantoData;
         public IEnumerable<Pokemon> Pokemon { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public KantoModel(IPokemonData kantoData)
         {
             this.kantoData = kantoData;
@@ -22,7 +25,8 @@ namespace PokemonFanSite.Pages.Regions
 
         public void OnGet()
         {
-            Pokemon = kantoData.GetAllKanto();
+            //Pokemon = kantoData.GetAllKanto();
+            Pokemon = kantoData.GetPokemonByName(SearchTerm);
         }
     }
 }
