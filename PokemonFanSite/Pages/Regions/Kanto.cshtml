@@ -26,6 +26,9 @@
             <td>@pokemon.Name</td>
             <td>@pokemon.DexNumber</td>
             <td>@pokemon.Type</td>
+            <td>
+                <a class="btn btn-lg" asp-page="../PokemonData/Detail" asp-route-pokemonId="@pokemon.Id">Details</a>
+            </td>
         </tr>
     }
 </table>

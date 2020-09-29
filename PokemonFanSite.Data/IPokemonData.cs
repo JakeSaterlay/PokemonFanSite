@@ -10,6 +10,7 @@ namespace PokemonFanSite.Data
     {
         IEnumerable<Pokemon> GetAllKanto();
         IEnumerable<Pokemon> GetPokemonByName(string name);
+        Pokemon GetById(int id);
     }
 
     public class InMemoryPokemonData : IPokemonData
@@ -42,5 +43,9 @@ namespace PokemonFanSite.Data
                    select p;
         }
 
+        public Pokemon GetById(int id)
+        {
+            return pokemon.SingleOrDefault(x => x.Id == id);
+        }
     }
 }

@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonFanSite", "PokemonFanSite\PokemonFanSite.csproj", "{1B3C6BB1-86FC-4353-9F66-DC666ABBEDF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonFanSite.Core", "PokemonFanSite.Core\PokemonFanSite.Core.csproj", "{E7646DE0-BB4F-4BF4-AADB-10E8321A35A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonFanSite.Core", "PokemonFanSite.Core\PokemonFanSite.Core.csproj", "{E7646DE0-BB4F-4BF4-AADB-10E8321A35A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonFanSite.Data", "PokemonFanSite.Data\PokemonFanSite.Data.csproj", "{5554E69C-679E-4CBC-A412-4FB0BC1A5B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonFanSite.Data", "PokemonFanSite.Data\PokemonFanSite.Data.csproj", "{5554E69C-679E-4CBC-A412-4FB0BC1A5B7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
